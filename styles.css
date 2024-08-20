@@ -1,0 +1,61 @@
+h1 {
+    font-size: 80px;
+    color: darkred;
+    background-color: darkcyan;
+    text-shadow: 2px 2px 4px white;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 0px;
+    margin-top: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+}
+
+img {
+    margin-left: 300px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 150px;
+    width: 830px;
+}
+
+.columna {
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.columna2 {
+    width: 75%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.columna2 img{
+    width: 100%;
+    height: 500px; /* Mantiene la proporción de la imagen */
+    display: block;
+}
+
+.columnas {
+    display: flex;
+}
+
+.texthover {
+    color: white;
+}
+
+a {
+    color: white;
+}
